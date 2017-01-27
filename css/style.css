@@ -1,0 +1,60 @@
+body {
+  margin-top: 60px;
+  background-color: #b1cdd8
+}
+
+.split {
+  height:50px;
+  background-color:#000;
+  position: relative;
+}
+  .split p {
+  /*Quote styling */
+  color:#FFF;
+  font-family: 'Righteous', arial;
+  font-size: 2.5em;
+}
+/*====================================
+          Parallax scrolling
+====================================*/
+#s1 {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/59/05/f4/5905f4b95a51ad49b9036f097e0cdc05.png);
+  height: 300px;
+  
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#s2 {
+  background-image: url(https://k33.kn3.net/taringa/2/8/E/E/9/B/irvinn666/CF9.jpg);
+  height: auto;
+  display: block;
+  /* Parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#s3 {
+  background-image: url(http://i.imgur.com/4IwQ5Fp.png);
+  height: auto;
+  /*parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#s4 {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/22/7a/2b/227a2b845ccf5e8e9b8e2d7c1ae528f3.jpg);
+  height: auto;
+  /*parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
